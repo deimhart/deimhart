@@ -1,0 +1,61 @@
+===================================================================
+DeimHart - OpenSource-Software für die primären Aufgaben am Rechner
+===================================================================
+
+Gruppe		Software	Linux		Mac		Windows		Besonderheit
+----------------------------------------------------------------------------------------------------------
+Büro		XMind		Xmind		XMind		XMind		Registrierung erforderlich
+Büro		OpenOffice	OpenOffice	OpenOffice	OpenOffice
+Büro		Sunbird		Sundbird
+Büro		Freemind	Freemind	Freemind	Freemind
+Büro            AbiWord         AbiWord                         AbiWord
+Büro            Gnumeric	Gnumeric			Gnumeric
+Büro            Scribus		Scribus		Scribus		Scribus
+Büro		Incscape	Incscape			Incscape
+Büro		LaTeX		LaTex		LaTeX		LaTeX
+Büro		scilab		scilab		scilab		scilab
+Büro		RedNoteBook	RedNoteBook	-		RedNoteBook
+
+Internet	Firefox		Firefox		Firefox		Firefox
+Internet	Flock		Flock
+Internet	SeaMonkey	SeaMonkey	SeaMonkey	SeaMonkey
+Internet	Thunderbird	Thunderbird	Thunderbird	Thunderbird
+Internet	Spicebird	Spicebird
+Internet	Filezilla	Filezilla			Filezilla
+Internet	NVU		NVU		NVU		NVU
+Internet	KompoZer	KompoZer			KompoZer
+Internet	Pidgin		Pidgin				Pidgin
+Internet	RSSOwl		RSSOwl		RSSOwl		RSSOwl
+
+Multimedia	Songbird	Songbird
+Multimedia	Amorak		Amorak
+Multimedia	Audacity	Audacity	Audacity	Audacity
+Multimedia	VLC		VLC		VLC		VLC
+Multimedia	Miro		Miro		Miro		Miro
+Multimedia	SMPlayer	SMPlayer	SMPlayer	SMPlayer
+Multimedia	Gpodder		Gpodder				Gpodder
+
+Grafik		GIMP		GIMP		GIMP		GIMP
+Grafik          Blender         Blender         Blender         Blender 
+Grafik          Cinepaint       Cinepaint       Cinepaint       Cinepaint
+Grafik          Inkscape	Inkscape	Inkscape	Inkscape
+
+Tools		KeePass		KeePassX	KeePass		KeePass
+Tools		Password Safe	Password Safe			Password Safe
+
+Server          Apache		Apache		Apache		Apache
+Server          MySQL		MySQL		MySQL		MySQL
+-->		unzählige Open Source Webanwendungen laufen auf allen Plattformen
+
+Programmierung  (G)vim		(G)vim		(G)vim		(G)vim
+Programmierung	emacs		emacs		emacs		emacs
+Programmierung	Poedit		Poedit		Poedit		Poedit
+Programmierung	Geany		Geany		Geany		Geany
+Programmierung  Eclipse		Eclipse		Eclipse		Eclipse
+Programmierung  NetBeans	NetBeans	NetBeans	NetBeans
+Programmierung  Jedit		Jedit		Jedit		Jedit
+Programmierung  Lazarus		Lazarus		Lazarus		Lazarus
+
+Links:
+- http://opensource-dvd.de/
+- http://portableapps.com/
