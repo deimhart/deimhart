@@ -42,6 +42,7 @@ Grafik          Inkscape	Inkscape	Inkscape	Inkscape
 
 Tools		KeePass		KeePassX	KeePass		KeePass
 Tools		Password Safe	Password Safe			Password Safe
+Tools		TrueCrypt	TrueCrypt	TrueCrypt	TrueCrypt
 
 Server          Apache		Apache		Apache		Apache
 Server          MySQL		MySQL		MySQL		MySQL
