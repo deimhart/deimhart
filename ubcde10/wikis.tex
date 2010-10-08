@@ -1,88 +1,51 @@
-\documentclass{beamer}		% Texttyp
-\usepackage[utf8]{inputenc}		% UTF-8-Zeichensatz verwenden
-\usepackage[ngermanb]{babel}	% Deutsche Texttrennung, Überschriften etc.
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[ngermanb]{babel}
 \usepackage{url}
 \urlstyle{tt}
 
-\title[Wikis]{Installation, Parametrisierung und Benutzung von Wikis}	% [optional: Kurzform] Titel der Praesentation
+\title[Wikis]{Installation, Parametrisierung und Benutzung von Wikis}
 \subtitle[Dokumentieren leicht gemacht]{Dokumentieren leicht gemacht}
-\author[]{Roman Hanhart und Dirk Deimeke}	% [optional: Kurzform] Name des Autors
-\institute{Ubucon 2010}			% Firma, Unternehmen
-\date{16. Oktober 2010}				% Datum (hier: heute)
-%\logo{\pgfimage[width=0.9cm,height=0.4cm]{udtheme_logo.png}} % original: 184 x 80 (2,3)
-\titlegraphic{\pgfimage[width=2.3cm,height=1cm]{udtheme_logo.png}} % original: 184 x 80 (2,3)
-\subject{Wikis}		% Thema
-\keywords{wiki, webserver, version control, ubuntu}		% Schluesselwuerter
-\beamertemplatenavigationsymbolsempty 		% Abschalten der Navigationselemente
-\setbeamertemplate{footline}[frame number]	% Seitenzahlen in Fußzeile einfügen
-\setbeamercovered{transparent} % halbtransparente Overlays an. Sollen wir das nutzen?
+\author[]{Roman Hanhart und Dirk Deimeke}
+\institute{Ubucon 2010}
+\date{16. Oktober 2010}
+\titlegraphic{\pgfimage[width=2.3cm,height=1cm]{udtheme_logo.png}}
+\subject{Wikis}
+\keywords{wiki, webserver, version control, ubuntu}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{footline}[frame number]
+\setbeamercovered{transparent}
 
 \usetheme{Dresden}
-% \usecolortheme{Wolverine}	% Farbtheme
-\usecolortheme{Whale}	% Farbtheme
+\usecolortheme{Whale}
 
 \begin{document}
+
 \frame{\titlepage}
 \frame{\frametitle{Inhalt}\tableofcontents}
 
 \section{Vorstellung} 
-\frame{\frametitle{Roman Hanhart}
-}
-\frame{\frametitle{Roman Hanhart (Ubuntu)}
-}
+\include{vorstellung-roman}
+\include{vorstellung-dirk}
 
-\frame{\frametitle{Dirk Deimeke}
-\begin{itemize}
-	\item Senior Unix Systems Administrator bei der Credit Suisse in der Schweiz (Best Global Bank laut Euromoney)
-	\item Verheiratet, zwei Hunde
-	\item Geboren in Wanne-Eickel / Ruhrgebiet / Nordrhein-Westfalen / Deutschland
-	\item Bekennender ">Alter Sack"<
-	\item Wohnhaft im Grüt / Zürcher Oberland / Kanton Zürich / Schweiz (2008 in die Schweiz ausgewandert)
-	\item Fühle mich als Weltbürger und Ruhrie (Ja, auch als Netzbürger)
-	\item Mehr unter \url{http://dirk.deimeke.net/} \\
-		Podcast \url{http://deimhart.net/}
-\end{itemize}
-}
-
-\frame{\frametitle{Dirk Deimeke (Ubuntu)}
-\begin{itemize}
-	\item Vereinsvorsitzender ubuntu Deutschland e. V.
-	\item Ansprechpartner für das deutsche LoCo-Team
-	\item Ubuntu Member
-	\item Organisationsteam der Ubucon
-	\item ... mehr unter \url{http://d5e.org/ubuntu}
-\end{itemize}
-}
-
-\section{Einführung} 
-\frame{\frametitle{Einführung}
-\begin{block}{Bin ich hier richtig?}
-\begin{itemize}
-        \item Das wird sich gleich zeigen ... :-) \pause 
-\end{itemize}
-\end{block}
-
-\begin{block}{Worum geht es?}
-\begin{itemize}
-        \item Um Wikis im Allgemeinen
-	\item Um MediaWiki und Trac im Besonderen \pause 
-\end{itemize}
-\end{block}
-
-\begin{block}{Worum geht es hier nicht?}
-\begin{itemize}
-        \item Um eine Marktübersicht vorhandener Wikis
-\end{itemize}
-\end{block}
-}
-
-\frame{\frametitle{Hinweis}
-\begin{itemize}
-        \item Die Session soll kein sturer Vortrag, sondern vielmehr ein Miteinander sein.
-        \item Bei Fragen bitte immer fragen!
-\end{itemize}
-}
+\section{Einführung}
+\include{einfuehrung}
 
 \section{Warum Wiki?} 
+\include{warum-mediawiki}
+\include{warum-trac}
+
+\section{Einrichtung}
+\include{einrichtung-mediawiki}
+\include{einrichtung-trac}
+
+\section{Live Demonstration}
+
+\frame{\frametitle{Live Demonstration}
+\begin{itemize}
+        \item MediaWiki \pause
+        \item Trac 
+\end{itemize}
+}
 
 \end{document}
