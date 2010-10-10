@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.25)  10 OCT 2010 13:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.10.10)  10 OCT 2010 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,13 +6,7 @@ entering extended mode
 (./wikis.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
-ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
-9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
-skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
-orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
-, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
-rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+yphenation, loaded.
 (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasercs.sty
 Package: beamerbasercs 2007/01/28 (rcs-revision 1.4)
@@ -99,7 +93,7 @@ File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gread@gobject=\count102
 ))
 \Gin@req@height=\dimen119
@@ -303,8 +297,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen155
 \Gm@even@mp=\dimen156
 \Gm@dimlist=\toks20
-
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+)
 (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
 
@@ -842,7 +835,7 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/var/lib/texmf/tex/generic/babel/babel.sty
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
 Package: babel 2008/07/06 v3.8l The Babel package
 
 (/usr/share/texmf-texlive/tex/generic/babel/ngermanb.ldf
@@ -854,10 +847,15 @@ LaTeX Info: Redefining \textlatin on input line 82.
 \babel@savecnt=\count150
 \U@D=\dimen178
 )
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `ngerman'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@ngerman = a dialect from \language0
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
-))
-(/usr/share/texmf/tex/latex/beamer/themes/theme/beamerthemeDresden.sty
+)) (/usr/share/texmf/tex/latex/beamer/themes/theme/beamerthemeDresden.sty
 Package: beamerthemeDresden 2007/01/28  (rcs-revision 1.9)
 
 (/usr/share/texmf/tex/latex/beamer/themes/outer/beamerouterthememiniframes.sty
@@ -885,7 +883,7 @@ LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 
-(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count151
 \scratchdimen=\dimen179
@@ -1062,7 +1060,11 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
  (./warum-trac.tex)
 \openout2 = `einrichtung-mediawiki.aux'.
 
-(./einrichtung-mediawiki.tex [11
+(./einrichtung-mediawiki.tex
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[11
 
 
 
@@ -1070,22 +1072,59 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 
 
-] [12
+]
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
 
-] [13
+[12
+
+]
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[13
+
+]
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[14
+
+]
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[15
+
+]
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[16
+
+]
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[17
+
+] [18
+
+] [19
+
+] [20
 
 ])
 \openout2 = `einrichtung-trac.aux'.
 
- (./einrichtung-trac.tex [14
+ (./einrichtung-trac.tex [21
 
 
 
-])
-[15
+]) [22
 
 
-] [16
+] [23
 
 ]
 \tf@nav=\write5
@@ -1097,21 +1136,22 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \tf@snm=\write7
 \openout7 = `wikis.snm'.
 
- (./wikis.aux (./vorstellung-roman.aux) (./vorstellung-dirk.aux)
-(./einfuehrung.aux) (./warum-mediawiki.aux) (./warum-trac.aux)
-(./einrichtung-mediawiki.aux) (./einrichtung-trac.aux))
+ (./wikis.aux
+(./vorstellung-roman.aux) (./vorstellung-dirk.aux) (./einfuehrung.aux)
+(./warum-mediawiki.aux) (./warum-trac.aux) (./einrichtung-mediawiki.aux)
+(./einrichtung-trac.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 13273 strings out of 493848
- 232386 string characters out of 1152823
- 320470 words of memory out of 3000000
- 16095 multiletter control sequences out of 15000+50000
+ 13284 strings out of 495061
+ 232398 string characters out of 1182620
+ 319169 words of memory out of 3000000
+ 15997 multiletter control sequences out of 15000+50000
  11729 words of font info for 44 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
+ 28 hyphenation exceptions out of 8191
  45i,16n,54p,340b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
@@ -1119,9 +1159,9 @@ xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/s
 ymbols/msam10.pfb>
-Output written on wikis.pdf (16 pages, 125588 bytes).
+Output written on wikis.pdf (23 pages, 147337 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
  78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
