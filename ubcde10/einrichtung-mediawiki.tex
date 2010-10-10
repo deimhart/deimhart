@@ -82,25 +82,21 @@
 
 }
 
-\frame{\frametitle{Kosmetischen Anpassungen Teil I}
+\frame{\frametitle{Das "fertige" MediaWiki}
 
-\begin{block}{Site einrichten}
-\begin{itemize}
-        \item \pause
-        \item \pause
-        \item \pause
-\end{itemize}
-\end{block}
+		\includegraphics[scale=0.25]{wiki-view.png}
 
 }
 
-\frame{\frametitle{Kosmetischen Anpassungen Teil II}
+\frame{\frametitle{Kosmetischen Anpassungen}
 
-\begin{block}{Site einrichten}
+\begin{block}{Logo und andere Einstellungen}
 \begin{itemize}
-        \item \pause
-        \item \pause
-        \item \pause
+        \item Die wichtigsten Einstellungen sind in der zuvor verschobenen Datei \texttt{LocalSettings.php} untergebracht. \pause
+        \item So auch das Logo, beziehungsweise dessen Pfad. \pause
+        \item \texttt{\$wgLogo} ist für den Pfad zum Bild zuständig. \pause
+        \item Der Standard-Titel ist unschön, da logische Titel dafür verwendet wird. Mit der Erweiterung \texttt{NOTITLE} kann der Titel entfernt werden.
+        \item Link zur Erweiterung \url{http://www.mediawiki.org/wiki/Extension:NoTitle}
 \end{itemize}
 \end{block}
 
@@ -108,11 +104,11 @@
 
 \frame{\frametitle{Benutzer Anpassungen (Zugriffe)}
 
-\begin{block}{Site einrichten}
+\begin{block}{Benutzer}
 \begin{itemize}
-        \item \pause
-        \item \pause
-        \item \pause
+        \item Das MediaWiki ist eine kollaborative Software. Jeder soll lesen und schreiben können. \pause
+        \item Das ist aber nicht immer erwünscht. Im Verzeichnis \texttt{includes} gibt es die Datei \texttt{DefaultSettings.php}. \pause
+        \item Das Array \texttt{\$wgGroupPermissions} muss entsprechend bearbeitet werden. \pause
 \end{itemize}
 \end{block}
 
