@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.10.10)  10 OCT 2010 14:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.10.10)  10 OCT 2010 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,7 +1013,17 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ]
 \openout2 = `vorstellung-roman.aux'.
 
- (./vorstellung-roman.tex [3
+ (./vorstellung-roman.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [3
 
 
 ] [4
@@ -1021,17 +1031,8 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ])
 \openout2 = `vorstellung-dirk.aux'.
 
- (./vorstellung-dirk.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-) [5
+(./vorstellung-dirk.tex [5
 
 
 
@@ -1040,8 +1041,7 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ])
 \openout2 = `einfuehrung.aux'.
 
-
-(./einfuehrung.tex [7
+ (./einfuehrung.tex [7
 
 
 
@@ -1054,13 +1054,14 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ])
 \openout2 = `warum-mediawiki.aux'.
 
- (./warum-mediawiki.tex)
+
+(./warum-mediawiki.tex)
 \openout2 = `warum-trac.aux'.
 
  (./warum-trac.tex)
 \openout2 = `einrichtung-mediawiki.aux'.
 
-(./einrichtung-mediawiki.tex
+ (./einrichtung-mediawiki.tex
 Overfull \vbox (1.71011pt too high) detected at line 23
  []
 
@@ -1113,7 +1114,7 @@ Overfull \vbox (1.71011pt too high) detected at line 23
 ] [21
 
 ]
-<wiki-logo.png, id=290, 259.97125pt x 231.86626pt>
+<wiki-logo.png, id=308, 259.97125pt x 231.86626pt>
 File: wiki-logo.png Graphic file (type png)
  <use wiki-logo.png> [22
 
@@ -1126,7 +1127,7 @@ File: wiki-logo.png Graphic file (type png)
  <use wiki-logo.png> [24
 
 ]
-<ch-de.png, id=325, 354.32375pt x 38.1425pt>
+<ch-de.png, id=343, 354.32375pt x 38.1425pt>
 File: ch-de.png Graphic file (type png)
  <use ch-de.png> [25
 
@@ -1146,18 +1147,49 @@ File: ch-de.png Graphic file (type png)
 
 ] [30
 
+]
+[31
+
+] [32
+
+] [33
+
+] [34
+
+] [35
+
+] [36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
+
+] [41
+
+] [42
+
+] [43
+
+] [44
+
+] [45
+
 ])
 \openout2 = `einrichtung-trac.aux'.
 
 
-(./einrichtung-trac.tex [31
+(./einrichtung-trac.tex [46
 
 
 
-]) [32
+]) [47
 
 
-] [33
+] [48
 
 ]
 \tf@nav=\write5
@@ -1178,10 +1210,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 13330 strings out of 495061
- 232903 string characters out of 1182620
+ 13366 strings out of 495061
+ 233236 string characters out of 1182620
  319169 words of memory out of 3000000
- 16020 multiletter control sequences out of 15000+50000
+ 16026 multiletter control sequences out of 15000+50000
  12023 words of font info for 45 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,16n,54p,340b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1192,9 +1224,9 @@ type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb>
-Output written on wikis.pdf (33 pages, 222781 bytes).
+Output written on wikis.pdf (48 pages, 268595 bytes).
 PDF statistics:
- 467 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
+ 663 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
