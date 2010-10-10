@@ -39,11 +39,43 @@
 \frame{\frametitle{Installation MediaWiki Teil II}
 
 \begin{block}{Site einrichten}
+        \includegraphics[scale=0.5]{wiki-logo.png}
 \begin{itemize}
-        \item \includegraphics[scale=0.5]{wiki-logo.png} \pause
-        \item \pause
-        \item \pause
+        \item Auf "Please set up the wiki first" klicken.\pause
+        \item Es folgt eine Fehlermeldung "Can't write config file, aborting" mit Anweisungen, das Problem zu lösen.\pause
+        \item Fehler in Ordnung bringen und den Wizard erneut starten.
 
+\end{itemize}
+\end{block}
+
+}
+
+\frame{\frametitle{Installation MediaWiki Teil III}
+
+\begin{block}{Site einrichten}
+\begin{itemize}
+        \item Allfällige Fehler beim Ausführen des Wizards beachten.\pause
+        \item Formular ausfüllen und \textbf{richtige} Sprache wählen ;-)
+        \end{itemize}
+		\includegraphics[scale=0.5]{ch-de.png}
+\begin{itemize}
+        \item MySQL-Datenbank gemäss Formulardaten erstellen.\pause
+        \item Wer möchte, kann das via Browser mit \texttt{phpmyadmin} erledigen.\pause
+        \item Das Paket lässt sich mit \texttt{sudo apt-get install phpmyadmin} leicht installieren.
+        \item Das Tool ist dann via Standard-Site per Browser erreichbar: \texttt{http://servername.tld/phpmyadmin}
+\end{itemize}
+\end{block}
+
+}
+
+\frame{\frametitle{Installation MediaWiki Teil IV}
+
+\begin{block}{Site einrichten}
+\begin{itemize}
+        \item Das Wiki aufrufen\pause
+        \item Fehler \texttt{To complete the installation, move config/LocalSettings.php to the parent directory.} beheben.
+        \item Die Konfigurationsdatei \texttt{LocalSettings.php} muss in den Wurzelordner der Website verschoben werden.
+        \item Damit läuft das Wiki. Bravo!
 \end{itemize}
 \end{block}
 
