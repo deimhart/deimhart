@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.10.10)  10 OCT 2010 13:35
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.10.10)  10 OCT 2010 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1102,11 +1102,7 @@ Overfull \vbox (1.71011pt too high) detected at line 23
 
 [16
 
-]
-Overfull \vbox (1.71011pt too high) detected at line 23
- []
-
-[17
+] [17
 
 ] [18
 
@@ -1114,17 +1110,37 @@ Overfull \vbox (1.71011pt too high) detected at line 23
 
 ] [20
 
+] [21
+
+]
+<wiki-logo.png, id=290, 259.97125pt x 231.86626pt>
+File: wiki-logo.png Graphic file (type png)
+ <use wiki-logo.png> [22
+
+ <./wiki-logo.png>]
+File: wiki-logo.png Graphic file (type png)
+ <use wiki-logo.png> [23
+
+]
+File: wiki-logo.png Graphic file (type png)
+ <use wiki-logo.png> [24
+
+]
+File: wiki-logo.png Graphic file (type png)
+
+<use wiki-logo.png> [25
+
 ])
 \openout2 = `einrichtung-trac.aux'.
 
- (./einrichtung-trac.tex [21
+ (./einrichtung-trac.tex [26
 
 
 
-]) [22
+]) [27
 
 
-] [23
+] [28
 
 ]
 \tf@nav=\write5
@@ -1146,10 +1162,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 13284 strings out of 495061
- 232398 string characters out of 1182620
+ 13305 strings out of 495061
+ 232625 string characters out of 1182620
  319169 words of memory out of 3000000
- 15997 multiletter control sequences out of 15000+50000
+ 16007 multiletter control sequences out of 15000+50000
  11729 words of font info for 44 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,16n,54p,340b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1159,9 +1175,9 @@ xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
 type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/s
 ymbols/msam10.pfb>
-Output written on wikis.pdf (23 pages, 147337 bytes).
+Output written on wikis.pdf (28 pages, 192635 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
