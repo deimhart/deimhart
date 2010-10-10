@@ -1,1 +1,11 @@
-% Backup MediaWiki
+\frame{\frametitle{Backup MediaWiki}
+\begin{block}{Sicherung}
+\begin{itemize}
+        \item Das MediaWiki ist sehr einfach zu sichern. Es müssen bloss zwei Bereich gesichert werden.  \pause
+        \item Das Verzeichnis, in dem das Wiki liegt. \texttt{/var/www/wiki} \pause
+        \item Ein Dump der Datenbank erzeugen \texttt{mysqldump -u [username] -p [password] [databasename] > [backupfile.sql]}
+        \item Die Sicherung lässt sich leicht skripten. 
+\end{itemize}
+\end{block}
+
+}

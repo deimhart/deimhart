@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.10.10)  10 OCT 2010 17:27
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.10.10)  10 OCT 2010 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,7 +865,8 @@ Package: beamercolorthemewhale 2007/01/28  (rcs-revision 1.4)
 ))
 (./wikis.aux (./vorstellung-roman.aux) (./vorstellung-dirk.aux)
 (./einfuehrung.aux) (./warum-mediawiki.aux) (./warum-trac.aux)
-(./einrichtung-mediawiki.aux) (./einrichtung-trac.aux))
+(./einrichtung-mediawiki.aux) (./einrichtung-trac.aux) (./backup-mediawiki.aux)
+(./backup-trac.aux))
 \openout1 = `wikis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -882,8 +883,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
-
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+ (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count151
 \scratchdimen=\dimen179
@@ -1067,51 +1067,17 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 ] [15
 
-])
-\openout2 = `warum-trac.aux'.
+] [16
 
- (./warum-trac.tex)
-\openout2 = `einrichtung-mediawiki.aux'.
+] [17
 
+] [18
 
-(./einrichtung-mediawiki.tex
-Overfull \vbox (1.71011pt too high) detected at line 23
- []
+] [19
 
-[16
-
-
-
-
+] [20
 
 ]
-Overfull \vbox (1.71011pt too high) detected at line 23
- []
-
-[17
-
-]
-Overfull \vbox (1.71011pt too high) detected at line 23
- []
-
-[18
-
-]
-Overfull \vbox (1.71011pt too high) detected at line 23
- []
-
-[19
-
-]
-Overfull \vbox (1.71011pt too high) detected at line 23
- []
-
-[20
-
-]
-Overfull \vbox (1.71011pt too high) detected at line 23
- []
-
 [21
 
 ] [22
@@ -1120,86 +1086,160 @@ Overfull \vbox (1.71011pt too high) detected at line 23
 
 ] [24
 
-] [25
+])
+\openout2 = `warum-trac.aux'.
 
-] [26
+ (./warum-trac.tex)
+\openout2 = `einrichtung-mediawiki.aux'.
 
-]
-<wiki-logo.png, id=364, 259.97125pt x 231.86626pt>
-File: wiki-logo.png Graphic file (type png)
- <use wiki-logo.png> [27
+ (./einrichtung-mediawiki.tex
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
 
- <./wiki-logo.png>]
-File: wiki-logo.png Graphic file (type png)
- <use wiki-logo.png> [28
+[25
 
-]
-File: wiki-logo.png Graphic file (type png)
- <use wiki-logo.png> [29
 
-]
-<ch-de.png, id=399, 354.32375pt x 38.1425pt>
-File: ch-de.png Graphic file (type png)
- <use ch-de.png> [30
 
- <./ch-de.png>]
-File: ch-de.png Graphic file (type png)
-<use ch-de.png> [31
+
 
 ]
-File: ch-de.png Graphic file (type png)
- <use ch-de.png> [32
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[26
 
 ]
-File: ch-de.png Graphic file (type png)
- <use ch-de.png> [33
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[27
+
+]
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[28
+
+]
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[29
+
+]
+Overfull \vbox (1.71011pt too high) detected at line 23
+ []
+
+[30
+
+] [31
+
+] [32
+
+] [33
 
 ] [34
 
 ] [35
 
 ]
-[36
+<wiki-logo.png, id=555, 259.97125pt x 231.86626pt>
+File: wiki-logo.png Graphic file (type png)
+ <use wiki-logo.png> [36
 
-] [37
+ <./wiki-logo.png>]
+File: wiki-logo.png Graphic file (type png)
+ <use wiki-logo.png> [37
 
-] [38
+]
+File: wiki-logo.png Graphic file (type png)
+ <use wiki-logo.png> [38
 
-] <wiki-view.png, id=506, 1210.5225pt x 564.1075pt>
-File: wiki-view.png Graphic file (type png)
+]
+<ch-de.png, id=594, 354.32375pt x 38.1425pt>
+File: ch-de.png Graphic file (type png)
+ <use ch-de.png> [39
 
-<use wiki-view.png> [39
+ <./ch-de.png>]
+File: ch-de.png Graphic file (type png)
+<use ch-de.png> [40
 
- <./wiki-view.png>] [40
+]
+File: ch-de.png Graphic file (type png)
+ <use ch-de.png> [41
 
-] [41
-
-] [42
+]
+File: ch-de.png Graphic file (type png)
+ <use ch-de.png> [42
 
 ] [43
 
 ] [44
 
-] [45
-
 ]
-[46
+[45
+
+] [46
 
 ] [47
+
+] <wiki-view.png, id=709, 1210.5225pt x 564.1075pt>
+File: wiki-view.png Graphic file (type png)
+
+<use wiki-view.png> [48
+
+ <./wiki-view.png>] [49
+
+] [50
+
+] [51
+
+] [52
+
+] [53
+
+] [54
+
+]
+[55
+
+] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
 
 ])
 \openout2 = `einrichtung-trac.aux'.
 
- (./einrichtung-trac.tex [48
+ (./einrichtung-trac.tex [61
 
 
 
-]) [49
+]) [62
 
 
-] [50
+] [63
 
 ]
+\openout2 = `backup-mediawiki.aux'.
+
+
+(./backup-mediawiki.tex [64
+
+
+] [65
+
+] [66
+
+])
+\openout2 = `backup-trac.aux'.
+
+ (./backup-trac.tex)
 \tf@nav=\write5
 \openout5 = `wikis.nav'.
 
@@ -1212,17 +1252,17 @@ File: wiki-view.png Graphic file (type png)
  (./wikis.aux
 (./vorstellung-roman.aux) (./vorstellung-dirk.aux) (./einfuehrung.aux)
 (./warum-mediawiki.aux) (./warum-trac.aux) (./einrichtung-mediawiki.aux)
-(./einrichtung-trac.aux))
+(./einrichtung-trac.aux) (./backup-mediawiki.aux) (./backup-trac.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 13379 strings out of 495061
- 233404 string characters out of 1182620
+ 13438 strings out of 495061
+ 234084 string characters out of 1182620
  319169 words of memory out of 3000000
- 16034 multiletter control sequences out of 15000+50000
+ 16046 multiletter control sequences out of 15000+50000
  12023 words of font info for 45 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,16n,54p,340b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1233,9 +1273,9 @@ type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb>
-Output written on wikis.pdf (50 pages, 374998 bytes).
+Output written on wikis.pdf (66 pages, 446850 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 106 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 999 PDF objects out of 1000 (max. 8388607)
+ 139 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

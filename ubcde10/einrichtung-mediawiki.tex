@@ -113,3 +113,15 @@
 \end{block}
 
 }
+
+\frame{\frametitle{Dateien uploaden}
+
+\begin{block}{Suffixe benennen}
+\begin{itemize}
+        \item Zunächst muss der Upload grundsätzlich erlaubt werden. In der Datei \texttt{LocalSettings.php} die Variable \texttt{\$wgEnableUploads} auf \textbf{true} setzen. Ausserdem dem Verzeichnis \texttt{images} Schreibrechte erteilen.\pause
+        \item Dann muss im Verzeichnis \texttt{includes} das Array namens \texttt{\$wgFileExtensions} um diejenigen Erweiterungen ergänzt werden, die man hochladen möchte. \pause
+        \item Im deutschen Wiki folgender Syntax nutzen: [Bild:Bildername.suffix | Alternativer Anzeigename] \pause
+\end{itemize}
+\end{block}
+
+}
