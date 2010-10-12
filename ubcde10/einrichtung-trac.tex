@@ -1,5 +1,32 @@
-\frame{\frametitle{Vorbedingungen}
+\frame{\frametitle{Vorbedingungen für Trac}
 \begin{itemize}
-        \item Python
+	\item Python >= 2.4 und < 3.0 \pause
+	\item setuptools \pause
+	\item Genshi \pause
+	\item Datenbank
+	\begin{itemize}
+		\item SQLite ist in Python ab Version 2.5 enthalten 
+	\end{itemize}
+\end{itemize}
+}
+
+\frame{\frametitle{Optional für Trac}
+\begin{itemize}
+	\item Trac kann Standalone ohne weiteren Server laufen \pause
+	\item ">richtiger"< Webserver \pause
+	\begin{itemize}
+		\item Apache 2
+		\item andere möglich, aber nicht dokumentiert 
+	\end{itemize} \pause
+	\item ">richtige"< Datenbank
+	\begin{itemize}
+		\item MySQL
+		\item PostgreSQL 
+	\end{itemize} \pause
+	\item Versionskontrollsystem
+	\begin{itemize}
+		\item Subversion
+		\item Andere (Bazaar, Git, Mercurial, ...)
+	\end{itemize} \pause
 \end{itemize}
 }
