@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (Web2C 2010) (format=pdflatex 2010.10.5)  12 OCT 2010 10:52
+This is pdfTeX, Version 3.1415926-1.40.11 (Web2C 2010) (format=pdflatex 2010.10.5)  12 OCT 2010 11:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1353,21 +1353,25 @@ File: wiki-view.png Graphic file (type png)
 
 ] [84
 
-]) [85
-
+] [85
 
 ] [86
 
-]
-\openout2 = `backup-mediawiki.aux'.
-
- (./backup-mediawiki.tex [87
+]) [87
 
 
 ] [88
 
 ]
+\openout2 = `backup-mediawiki.aux'.
+
+ (./backup-mediawiki.tex
 [89
+
+
+] [90
+
+] [91
 
 ])
 \openout2 = `backup-trac.aux'.
@@ -1398,10 +1402,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 14561 strings out of 493738
- 257647 string characters out of 3146583
+ 14592 strings out of 493738
+ 258516 string characters out of 3146583
  348155 words of memory out of 3000000
- 17178 multiletter control sequences out of 15000+200000
+ 17205 multiletter control sequences out of 15000+200000
  12328 words of font info for 46 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  48i,16n,54p,340b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1413,10 +1417,10 @@ t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2009/texmf-dist/fonts
 lic/amsfonts/cm/cmtt10.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msam10.pfb><c:/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/
 symbols/msam7.pfb>
-Output written on wikis.pdf (89 pages, 353201 bytes).
+Output written on wikis.pdf (91 pages, 356702 bytes).
 PDF statistics:
- 1312 PDF objects out of 1440 (max. 8388607)
- 1182 compressed objects within 12 object streams
- 185 named destinations out of 1000 (max. 500000)
+ 1339 PDF objects out of 1440 (max. 8388607)
+ 1206 compressed objects within 13 object streams
+ 189 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

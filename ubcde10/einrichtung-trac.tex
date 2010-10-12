@@ -1,6 +1,6 @@
 \frame{\frametitle{Vorbedingungen für Trac}
 \begin{itemize}
-	\item Python >= 2.4 und < 3.0 \pause
+	\item Python ab 2.4, 3.0 und grösser wird noch nicht unterstützt. \pause
 	\item setuptools \pause
 	\item Genshi \pause
 	\item Datenbank
@@ -29,4 +29,21 @@
 		\item Andere (Bazaar, Git, Mercurial, ...)
 	\end{itemize} \pause
 \end{itemize}
+}
+
+\frame{\frametitle{Installation Trac (1)}
+\begin{exampleblock}{Einschränkung für diesen Vortrag}
+Wir werden hier Trac mit Apache als Webserver und Subversion als Versionsverwaltungsssystem und Authentifizierung über den Webserver installieren.
+
+Es gibt eine grosse Menge an weiteren Möglichkeiten, die aber hier den Rahmen sprengen würden. \pause
+\end{exampleblock}
+
+\begin{block}{Überprüfung der Vorbedingungen}
+\begin{itemize}
+	\item \texttt{aptitude show apache2}
+	\item \texttt{aptitude show libapache2-python}
+	\item \texttt{aptitude show python-pysqlite1.1 python-pysqlite2}
+	\item \texttt{aptitude show python-setuptools}
+\end{itemize}
+\end{block}
 }
