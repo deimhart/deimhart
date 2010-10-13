@@ -1,4 +1,4 @@
-\frame{\frametitle{Vorbedingungen MediaWiki}
+frame{\frametitle{Vorbedingungen MediaWiki}
 \begin{block}{Webserver}
 \begin{itemize}
         \item Wir gehen von einem Apache-Webserver aus, der aus den Repositories gezogen wird.  \pause
@@ -63,6 +63,18 @@
         \item Wer möchte, kann das via Browser mit \texttt{phpmyadmin} erledigen.\pause
         \item Das Paket lässt sich mit \texttt{sudo apt-get install phpmyadmin} leicht installieren.
         \item Das Tool ist dann via Standard-Site per Browser erreichbar: \url{http://servername.tld/phpmyadmin}
+\end{itemize}
+\end{block}
+
+}
+
+\frame{\frametitle{Installation SQL-Datenbank}
+
+\begin{block}{per Konsole}
+\begin{itemize}
+        \item \texttt{mysql -u benutzername -p} \pause
+        \item \texttt{create database datenbank-name;}
+        \item \texttt{grant all on datenbank-name.* to 'benutzername'@'localhost' identified by 'kennwort';}
 \end{itemize}
 \end{block}
 
