@@ -30,7 +30,8 @@ frame{\frametitle{Vorbedingungen MediaWiki}
         \item \url{http://www.mediawiki.org/wiki/Download/de} (zurzeit aktuellste Version 1.160 - 12.1 MB schwer) \pause
         \item Der Einfachheit halber nutzen wir ein Unterverzeichnis im Standard-Verzeichnis des Apaches und verzichten auf das Einrichten einer Subdomain. \pause
         \item \texttt{/var/www/wiki} \pause
-        \item Dann \url{http://servername.tld/wiki} mit dem Browser ansteuern
+        \item Dann \url{http://servername.tld/wiki} mit dem Browser ansteuern \pause
+        \item An der Ubucon nutzen wir den Pfad \texttt{/srv/www/mediawiki.deimhart.net}
 \end{itemize}
 \end{block}
 
@@ -73,7 +74,7 @@ frame{\frametitle{Vorbedingungen MediaWiki}
 \begin{block}{per Konsole}
 \begin{itemize}
         \item \texttt{mysql -u benutzername -p} \pause
-        \item \texttt{create database datenbank-name;}
+        \item \texttt{create database datenbank-name;} \pause
         \item \texttt{grant all on datenbank-name.* to 'benutzername'@'localhost' identified by 'kennwort';}
 \end{itemize}
 \end{block}

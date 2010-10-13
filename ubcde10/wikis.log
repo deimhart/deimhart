@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.10.11)  13 OCT 2010 16:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.10.11)  13 OCT 2010 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1149,56 +1149,80 @@ l.16 \begin{block}{MySQL}
 Sorry...I usually can't take things from the current page.
 Try `I\vskip-\lastskip' instead.
 
+
+Overfull \vbox (4.2226pt too high) detected at line 38
+ []
+
 [40
 
 
 
-] [41] [42
+] [41]
+Overfull \vbox (4.2226pt too high) detected at line 38
+ []
 
-] [43
-
-] [44
-
-] [45
+[42
 
 ]
-<wiki-logo.png, id=689, 259.97125pt x 231.86626pt>
+Overfull \vbox (4.2226pt too high) detected at line 38
+ []
+
+[43
+
+]
+Overfull \vbox (4.2226pt too high) detected at line 38
+ []
+
+[44
+
+]
+Overfull \vbox (4.2226pt too high) detected at line 38
+ []
+
+[45
+
+]
+Overfull \vbox (4.2226pt too high) detected at line 38
+ []
+
+[46
+
+] <wiki-logo.png, id=703, 259.97125pt x 231.86626pt>
 File: wiki-logo.png Graphic file (type png)
- <use wiki-logo.png> [46
+ <use wiki-logo.png>
+[47
 
  <./wiki-logo.png>]
-File: wiki-logo.png Graphic file (type png)
- <use wiki-logo.png> [47
-
-]
 File: wiki-logo.png Graphic file (type png)
  <use wiki-logo.png> [48
 
 ]
-<ch-de.png, id=727, 354.32375pt x 38.1425pt>
+File: wiki-logo.png Graphic file (type png)
+ <use wiki-logo.png> [49
+
+]
+<ch-de.png, id=742, 354.32375pt x 38.1425pt>
 File: ch-de.png Graphic file (type png)
- <use ch-de.png> [49
+ <use ch-de.png> [50
 
  <./ch-de.png>]
 File: ch-de.png Graphic file (type png)
-<use ch-de.png> [50
-
-]
-File: ch-de.png Graphic file (type png)
- <use ch-de.png> [51
+<use ch-de.png> [51
 
 ]
 File: ch-de.png Graphic file (type png)
  <use ch-de.png> [52
 
-] [53
+]
+File: ch-de.png Graphic file (type png)
+ <use ch-de.png> [53
 
 ] [54
 
-]
-[55
+] [55
 
-] [56
+]
+[56
 
 ] [57
 
@@ -1206,16 +1230,16 @@ File: ch-de.png Graphic file (type png)
 
 ] [59
 
-] <wiki-view.png, id=867, 1210.5225pt x 564.1075pt>
+] [60
+
+] [61
+
+]
+<wiki-view.png, id=894, 1210.5225pt x 564.1075pt>
 File: wiki-view.png Graphic file (type png)
+ <use wiki-view.png> [62
 
-<use wiki-view.png> [60
-
- <./wiki-view.png>] [61
-
-] [62
-
-] [63
+ <./wiki-view.png>] [63
 
 ] [64
 
@@ -1223,8 +1247,7 @@ File: wiki-view.png Graphic file (type png)
 
 ] [66
 
-]
-[67
+] [67
 
 ] [68
 
@@ -1236,21 +1259,21 @@ File: wiki-view.png Graphic file (type png)
 
 ] [72
 
-])
-\openout2 = `einrichtung-trac.aux'.
-
- (./einrichtung-trac.tex [73
-
-
+] [73
 
 ] [74
 
-] [75
+])
+\openout2 = `einrichtung-trac.aux'.
+
+
+(./einrichtung-trac.tex [75
+
+
 
 ] [76
 
-]
-[77
+] [77
 
 ] [78
 
@@ -1264,23 +1287,27 @@ File: wiki-view.png Graphic file (type png)
 
 ] [83
 
-]) [84
+] [84
+
+]
+[85
+
+]) [86
 
 
-] [85
+] [87
 
 ]
 \openout2 = `backup-mediawiki.aux'.
 
- (./backup-mediawiki.tex [86
+ (./backup-mediawiki.tex [88
 
-
-]
-[87
-
-] [88
 
 ] [89
+
+] [90
+
+] [91
 
 ])
 \openout2 = `backup-trac.aux'.
@@ -1295,19 +1322,19 @@ File: wiki-view.png Graphic file (type png)
 \tf@snm=\write7
 \openout7 = `wikis.snm'.
 
- (./wikis.aux (./vorstellung-roman.aux)
-(./vorstellung-dirk.aux) (./einfuehrung.aux) (./warum-wikis.aux)
-(./warum-mediawiki.aux) (./warum-trac.aux) (./einrichtung-mediawiki.aux)
-(./einrichtung-trac.aux) (./backup-mediawiki.aux) (./backup-trac.aux))
+ (./wikis.aux (./vorstellung-roman.aux) (./vorstellung-dirk.aux)
+(./einfuehrung.aux) (./warum-wikis.aux) (./warum-mediawiki.aux)
+(./warum-trac.aux) (./einrichtung-mediawiki.aux) (./einrichtung-trac.aux)
+(./backup-mediawiki.aux) (./backup-trac.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 13558 strings out of 495061
- 236470 string characters out of 1182620
- 319942 words of memory out of 3000000
+ 13562 strings out of 495061
+ 236508 string characters out of 1182620
+ 320942 words of memory out of 3000000
  16113 multiletter control sequences out of 15000+50000
  12328 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
@@ -1320,9 +1347,9 @@ lic/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam7.pf
 b>
-Output written on wikis.pdf (89 pages, 531106 bytes).
+Output written on wikis.pdf (91 pages, 538174 bytes).
 PDF statistics:
- 1305 PDF objects out of 1440 (max. 8388607)
- 185 named destinations out of 1000 (max. 500000)
+ 1333 PDF objects out of 1440 (max. 8388607)
+ 189 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
