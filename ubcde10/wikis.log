@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.10.10)  13 OCT 2010 20:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.25)  15 OCT 2010 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,13 @@ entering extended mode
 (./wikis.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
 (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasercs.sty
 Package: beamerbasercs 2007/01/28 (rcs-revision 1.4)
@@ -93,7 +99,7 @@ File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count102
 ))
 \Gin@req@height=\dimen119
@@ -297,7 +303,8 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen155
 \Gm@even@mp=\dimen156
 \Gm@dimlist=\toks20
-)
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
 (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
 
@@ -835,7 +842,7 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+(/var/lib/texmf/tex/generic/babel/babel.sty
 Package: babel 2008/07/06 v3.8l The Babel package
 
 (/usr/share/texmf-texlive/tex/generic/babel/ngermanb.ldf
@@ -847,15 +854,10 @@ LaTeX Info: Redefining \textlatin on input line 82.
 \babel@savecnt=\count150
 \U@D=\dimen178
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `ngerman'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@ngerman = a dialect from \language0
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
-)) (/usr/share/texmf/tex/latex/beamer/themes/theme/beamerthemeDresden.sty
+))
+(/usr/share/texmf/tex/latex/beamer/themes/theme/beamerthemeDresden.sty
 Package: beamerthemeDresden 2007/01/28  (rcs-revision 1.9)
 
 (/usr/share/texmf/tex/latex/beamer/themes/outer/beamerouterthememiniframes.sty
@@ -884,7 +886,7 @@ LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count151
 \scratchdimen=\dimen179
@@ -1331,7 +1333,17 @@ File: wiki-view.png Graphic file (type png)
 ])
 \openout2 = `backup-trac.aux'.
 
- (./backup-trac.tex)
+ (./backup-trac.tex [97
+
+
+
+] [98
+
+] [99
+
+] [100
+
+])
 \tf@nav=\write5
 \openout5 = `wikis.nav'.
 
@@ -1341,22 +1353,22 @@ File: wiki-view.png Graphic file (type png)
 \tf@snm=\write7
 \openout7 = `wikis.snm'.
 
- (./wikis.aux (./vorstellung-roman.aux) (./vorstellung-dirk.aux)
-(./einfuehrung.aux) (./warum-wikis.aux) (./warum-mediawiki.aux)
-(./warum-trac.aux) (./einrichtung-mediawiki.aux) (./einrichtung-trac.aux)
-(./backup-mediawiki.aux) (./backup-trac.aux))
+ (./wikis.aux (./vorstellung-roman.aux)
+(./vorstellung-dirk.aux) (./einfuehrung.aux) (./warum-wikis.aux)
+(./warum-mediawiki.aux) (./warum-trac.aux) (./einrichtung-mediawiki.aux)
+(./einrichtung-trac.aux) (./backup-mediawiki.aux) (./backup-trac.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 13571 strings out of 495061
- 236542 string characters out of 1182620
- 320169 words of memory out of 3000000
- 16112 multiletter control sequences out of 15000+50000
- 12328 words of font info for 46 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
+ 13583 strings out of 493848
+ 236756 string characters out of 1152823
+ 321470 words of memory out of 3000000
+ 16211 multiletter control sequences out of 15000+50000
+ 12496 words of font info for 47 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
  45i,16n,54p,340b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
@@ -1366,9 +1378,9 @@ lic/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam7.pf
 b>
-Output written on wikis.pdf (96 pages, 552159 bytes).
+Output written on wikis.pdf (100 pages, 564879 bytes).
 PDF statistics:
- 1395 PDF objects out of 1440 (max. 8388607)
- 199 named destinations out of 1000 (max. 500000)
+ 1445 PDF objects out of 1728 (max. 8388607)
+ 207 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

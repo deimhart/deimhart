@@ -1,1 +1,17 @@
 % Backup Trac
+
+\frame{\frametitle{Backup Trac}
+\begin{block}{Sicherung von Trac leider etwas komplexer}
+\begin{itemize}
+        \item Datei-Sicherung
+	\begin{itemize}
+		\item Trac-Konfigurationsdatei \texttt{/pfad/zum/trac/conf/trac.ini}
+		\item Dateianhänge des Wikis \texttt{/pfad/zum/trac/attachments}
+	\end{itemize} \pause
+        \item Trac-Daten, \\ \texttt{trac-admin hotcopy /pfad/zum/trac trac.backup}. \pause
+        \item Eventuell Daten der Versionsverwaltung, \\ \texttt{svnadmin dump /pfad/zum/svn > subversion.backup}. \pause
+        \item Das ganze läuft über ein selbstgeschriebenes Skript.
+\end{itemize}
+\end{block}
+
+}
