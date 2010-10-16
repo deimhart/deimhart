@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.25)  15 OCT 2010 13:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.8.25)  16 OCT 2010 08:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1313,16 +1313,11 @@ File: wiki-view.png Graphic file (type png)
 ]
 [90
 
-]) [91
-
+] [91
 
 ] [92
 
-]
-\openout2 = `backup-mediawiki.aux'.
-
- (./backup-mediawiki.tex [93
-
+] [93
 
 ] [94
 
@@ -1330,18 +1325,45 @@ File: wiki-view.png Graphic file (type png)
 
 ] [96
 
-])
-\openout2 = `backup-trac.aux'.
-
- (./backup-trac.tex [97
-
-
+] [97
 
 ] [98
 
 ] [99
 
 ] [100
+
+]) [101
+
+
+] [102
+
+]
+\openout2 = `backup-mediawiki.aux'.
+
+
+(./backup-mediawiki.tex [103
+
+
+] [104
+
+] [105
+
+] [106
+
+])
+\openout2 = `backup-trac.aux'.
+
+ (./backup-trac.tex [107
+
+
+
+]
+[108
+
+] [109
+
+] [110
 
 ])
 \tf@nav=\write5
@@ -1363,10 +1385,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 13583 strings out of 493848
- 236756 string characters out of 1152823
+ 13606 strings out of 493848
+ 237000 string characters out of 1152823
  321470 words of memory out of 3000000
- 16211 multiletter control sequences out of 15000+50000
+ 16214 multiletter control sequences out of 15000+50000
  12496 words of font info for 47 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  45i,16n,54p,340b,581s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1378,9 +1400,9 @@ lic/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam7.pf
 b>
-Output written on wikis.pdf (100 pages, 564879 bytes).
+Output written on wikis.pdf (110 pages, 596275 bytes).
 PDF statistics:
- 1445 PDF objects out of 1728 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
+ 1574 PDF objects out of 1728 (max. 8388607)
+ 227 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -47,3 +47,27 @@ Es gibt eine grosse Menge an weiteren Möglichkeiten, die aber hier den Rahmen s
 \end{itemize}
 \end{block}
 }
+
+\frame{\frametitle{Installation Trac (2)}
+\begin{block}{Einrichtung auf der Kommandozeile}
+\begin{itemize}
+	\item \texttt{easy\_install Trac} \pause
+	\item \texttt{trac-admin /pfad/zum/trac initenv} \\ Pfad darf noch nicht existieren \pause
+	\item \texttt{chown -R www-data:www-data /pfad/zum/trac} \pause
+	\item \texttt{htpasswd -c /pfad/zur/datei admin passwort} \pause
+	\item \texttt{htpasswd /pfad/zur/datei user passwort} \pause
+	\item \texttt{trac-admin /pfad/zum/trac permission add admin TRAC\_ADMIN}
+\end{itemize}
+\end{block}
+}
+
+\frame{\frametitle{Installation Trac (3)}
+\begin{block}{Einbindung von Subversion in Trac}
+\begin{itemize}
+	\item \texttt{svnadmin create /pfad/zum/svn} \pause
+	\item \texttt{chown -R www-data:www-data /pfad/zum/svn} \pause
+	\item \texttt{trac-admin /pfad/zum/trac repository add name /pfad/zum/svn} \pause
+	\item \texttt{trac-admin /pfad/zum/trac sync}
+\end{itemize}
+\end{block}
+}
